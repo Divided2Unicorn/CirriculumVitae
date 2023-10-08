@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    --scale: calc(100vw / 1280px);
+    --fontsize: calc( 16px * var(--scale));
+    --width: calc( 1280px * var(--scale));
+}
+
+#CV {
+    display: flex;
+    width: var(--width);
+    font-size: var(--fontsize);
+}
+
+.left {
+    max-width: 260px;
+    background-color: #ddd;
+    text-align: center;
+}
+
+.profile {
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+.profile img {
+    display: inline-block;
+    border: solid .5em #fff;
+}
+.skills {
+    padding: 1em;
+    box-sizing: border-box;
+}
+.points {
+    padding-inline-start: 1em;
+    text-align: left;
+}
+.points li {
+    display: inline-block;
+}
+
+.right {
+    background-color: #fff;
+}
+.intro {
+    padding: 1em;
+    box-sizing: border-box;
+    background-color: #eee;
+}
+.content {
+    padding: 1em;
+    box-sizing: border-box;
+}
